@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New Theme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/svg">
+  <!-- magnific popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+
+</head>
+
+<body>
+  <header class="header" >
+    <nav class="navbar navbar-expand-lg my-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/Dummy Logo.png" alt="" srcset="" class="img-fluid logo">
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+       
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- <li class="nav-item">
+              <a class="nav-link custom_nav_link" href="#">Home</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link custom_nav_link" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom_nav_link" href="#highlights">Highlights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom_nav_link" href="#floor-plan">Price list</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom_nav_link" href="#amenities">Amenities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom_nav_link" href="#floor-plan">Floor Plan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom_nav_link" href="#location">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom_nav_link" href="#gallery">Gallery</a>
+            </li>
+          </ul>
+        <div class="mb-3 mb-sm-0">
+          <a href="tel:9876543210" class="call-nav text-white btn-call">
+            <span><img src="images/icons/telephone-call (2).png" alt="" srcset="" class="trin-trin"></span>
+            +91-9876543210
+          </a>
+        </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/Banners/banner2.jpg" class="d-block w-100 h-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/Banners/banner1.jpg" class="d-block w-100 h-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="carousel-caption ">
+      <div class="carousel-content">
+        <h5>Location Name</h5>
+        <h1>Project name</h1>
+        <h5>2 & 3 BHK Apartments</h5>
+        <div class="banner-content">
+          <p><img src="images/icons/check (2).png" alt="">New Tower Launch</p>
+          <p><img src="images/icons/check (2).png" alt="">Possession Dec 2028</p>
+          <p><img src="images/icons/check (2).png" alt="">Biggest Development In Vicinity</p>
+        </div>
+        <h3>Starting Price : <span class="price">2</span> Cr* Onwards</h3>
+        <button class="btn btn-call text-white mt-2 shake-button" type="submit" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">
+          Know More
+        </button>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="top-icon" id="top_icon">
+        <div id="toggleIcon" class="msg-icon">
+          <img src="images/icons/mail.png" alt="">
+        </div>
+        <div id="formbox" class="form">
+          <!-- Form initially hidden -->
+          <p class="text-white mb-3 mt-4">Let's Connect!</p>
+          <h4 class="text-white mb-4">Send Us A Message</h4>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Enter Name"  id="qSenderName">
+            </div>
+            <div class="mb-3">
+              <input class="form-control" placeholder="Enter Number" id="qMobileNo">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Enter Email" id="qEmailID">
+            </div>
+            <textarea rows="3" class="form-control" placeholder="Enter Message" row="3" id="qMessage"></textarea>
+            <button class="btn btn-call mt-3 text-white" type="submit" id="SubmitQuery">
+              Submit
+            </button>
+            <div class="checkbox-section mt-2"
+              style="display: flex; justify-content: space-between; align-items: baseline;">
+              <input type="checkbox" name="" value="" checked="">
+              <p style="    font-size: 10px;
+              color: #fff;
+              padding: 10px;
+              margin: 0px 0 0 0;
+              line-height: unset;
+              padding-bottom: 0;
+              ">I authorize company representatives to Call, SMS, Email or WhatsApp me about its products and
+                offers.This
+                consent overrides any registration for DNC/NDNC.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="overview" id="overview">
+    <div class="container p-4">
+      <div class="row align-items-center">
+
+        <div class="col-md-6 col-12 order-1 order-md-0">
+          <div class="overview-img">
+            <img src="images/overview.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6 col-12 text-white order-0 order-md-1">
+          <div class="overview-content">
+            <p class="p heading ">Overview</p>
+            <h2 class="h2">The HIGH Premium Quality Luxury Apartments</h2>
+            <p class="content-p">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Veritatis deleniti culpa eaque placeat praesentium magnam dicta
+              amet dolore debitis, architecto soluta mollitia reiciendis vitae
+              consequuntur cum molestias dolores? Officia, veritatis.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Veritatis deleniti culpa eaque placeat praesentium magnam dicta
+              amet dolore debitis, architecto soluta mollitia reiciendis vitae
+              consequuntur cum molestias dolores? Officia, veritatis.</p>
+            
+            <div>
+              <button type="button" class="btn btn-call mb-3 text-white shake-button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Know More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlights" id="highlights">
+    <div class="container">
+      <div class="py-5">
+        <h3 class="text-center heading text-white position-relative">Highlights</h3>
+      </div>
+      <div class="row align-items-center mt-0 mt-md-5">
+
+        <div class="col-md-6 col-12">
+          <div class="highlights-text">
+            <h1 class="text-white">Why You Should Choose our Building & apartments</h1>
+            <button type="button" class="btn btn-call mb-3 text-white shake-button mt-0 mt-md-4 ms-0 ms-md-3" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Know More</button>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="grid-container">
+            <div class="grid-item"><span><img src="images/icons/check (1).png" alt="" width="18px"></span>Modern design with spacious, airy interiors.
+            </div>
+            <div class="grid-item"><span><img src="images/icons/check (1).png" alt="" width="18px"></span>Prime location with excellent connectivity.
+            </div>
+            <div class="grid-item"><span><img src="images/icons/check (1).png" alt="" width="18px"></span>Luxurious amenities for a comfortable lifestyle.
+            </div>
+            <div class="grid-item"><span><img src="images/icons/check (1).png" alt="" width="18px"></span>Eco-friendly construction and sustainability.
+            </div>
+            <div class="grid-item"><span><img src="images/icons/check (1).png" alt="" width="18px"></span>Premium quality materials for lasting durability.
+            </div>
+            <div class="grid-item"><span><img src="images/icons/check (1).png" alt="" width="18px"></span>Landscaped gardens and open green spaces.
+            </div>
+            <!-- <div class="grid-item"><span><img src="images/icons/check (1).png" alt="" width="18px"></span>Prime Hosur Road location
+            </div>
+            <div class="grid-item"><span><img src="images/icons/check (1).png" alt="" width="18px"></span>Prime Hosur Road location
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="floor-plan" id="floor-plan">
+    <div class="container">
+      <div class="py-5">
+        <h3 class="text-white text-center heading ">Price List</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12 price-tab ">
+          <ul class="nav nav-pills mb-3 tabss" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active btn-call text-white price-btn" id="pills-home-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">3
+                BHK</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link btn-call text-white" id="pills-profile-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                aria-selected="false">4 BHK</button>
+            </li>
+            <li class="nav-item " role="presentation">
+              <button class="nav-link btn-call text-white" id="pills-contact-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                aria-selected="false">4.5 BHK</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row align-items-center">
+              <div class="col-md-4 col-12">
+                <table>
+                  <tr>
+                    <td>Apartments </td>
+                     <td> : </td>
+                    <td>3 BHK</td>
+                  </tr>
+                  <tr>
+                    <td>Size </td>
+                     <td> : </td>
+                    <td>
+                      2537 Sq.Ft.</td>
+                  </tr>
+                  <tr>
+                    <td>Price </td>
+                     <td> : </td>
+                    <td>₹ 2 Cr*</td>
+                  </tr>
+                </table>
+                <button class="btn btn-call text-white mt-4 mb-4 shake-button" type="submit" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Know More
+                </button>
+              </div>
+              <div class="col-md-8 col-12 text-end">
+                <img src="images/floor-plan.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row align-items-center">
+              <div class="col-md-4 col-12">
+                <table>
+                  <tr>
+                    <td>Apartments </td>
+                     <td> : </td>
+                    <td>4 BHK</td>
+                  </tr>
+                  <tr>
+                    <td>Size  </td>
+                     <td> : </td>
+                    <td>
+                      2537 Sq.Ft.</td>
+                  </tr>
+                  <tr>
+                    <td>Price  </td>
+                     <td> : </td>
+                    <td>On Request
+                    </td>
+                  </tr>
+                </table>
+                <button class="btn btn-call text-white mt-4 mb-4 shake-button" type="submit" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Know More
+                </button>
+              </div>
+              <div class="col-md-8 col-12 text-end">
+                <img src="images/floor-plan.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="row align-items-center">
+              <div class="col-md-4 col-12">
+                <table>
+                  <tr>
+                    <td>Apartments </td>
+                    <td> : </td>
+                    <td>4.5 BHK</td>
+                  </tr>
+                  <tr>
+                    <td>Size  </td>
+                    <td> : </td>
+                    <td>
+                      2537 Sq.Ft.</td>
+                  </tr>
+                  <tr>
+                    <td>Price  </td>
+                    <td> : </td>
+                    <td>On Request
+                    </td>
+                  </tr>
+                </table>
+                <button class="btn btn-call text-white mt-4 mb-4 shake-button" type="submit" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Know More
+                </button>
+              </div>
+              <div class="col-md-8 col-12 text-end">
+                <img src="images/floor-plan.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-md-5 py-2 amenties" id="amenities">
+    <div class="container pb-5">
+      <div class="row">
+        <h3 class="text-center py-5 heading">Amenities</h3>
+        <div class="col-md-3 col-6 mt-3">
+          <div class="amenties-img">
+            <img src="images/amenties/zym.jpg" alt="Zym">
+            <div class="amenties-text">
+              <h5>Gym</h5>
+            </div>
+            <!-- <div class="amenties-box">
+              <h5>Read More</h5>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-3">
+          <div class="amenties-img">
+            <img src="images/amenties/swimming pool.jpg" alt="Zym">
+            <div class="amenties-text">
+              <h5>Swimming Pool</h5>
+            </div>
+            <!-- <div class="amenties-box">
+              <h5>Read More</h5>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-3">
+          <div class="amenties-img">
+            <img src="images/amenties/security.jpg" alt="Zym">
+            <div class="amenties-text">
+              <h5>24x7 Security</h5>
+            </div>
+            <!-- <div class="amenties-box">
+              <h5>Read More</h5>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-3 ">
+          <div class="amenties-img">
+            <img src="images/amenties/play area.jpg" alt="Zym">
+            <div class="amenties-text">
+              <h5>Kid's Play Area</h5>
+            </div>
+            <!-- <div class="amenties-box">
+              <h5>Read More</h5>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-3 ">
+          <div class="amenties-img">
+            <img src="images/amenties/parking.jpg" alt="Zym">
+            <div class="amenties-text">
+              <h5>Parking</h5>
+            </div>
+            <!-- <div class="amenties-box">
+              <h5>Read More</h5>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-3 ">
+          <div class="amenties-img">
+            <img src="images/amenties/wifi.jpg" alt="Zym">
+            <div class="amenties-text">
+              <h5>High Speed Wifi</h5>
+            </div>
+            <!-- <div class="amenties-box">
+              <h5>Read More</h5>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-3 ">
+          <div class="amenties-img">
+            <img src="images/amenties/joggling area.jpg" alt="Zym">
+            <div class="amenties-text">
+              <h5>Jogging Track</h5>
+            </div>
+            <!-- <div class="amenties-box">
+              <h5>Read More</h5>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-3 ">
+          <div class="amenties-img">
+            <img src="images/amenties/multipurpose hall.jpg" alt="Zym">
+            <div class="amenties-text">
+              <h5>Multipurpose Hall</h5>
+            </div>
+            <!-- <div class="amenties-box">
+              <h5>Read More</h5>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Location-map -->
+  <section class="location" id="location">
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center py-5 heading text-white">Location Advantage</h3>
+        <div class="col-md-6 col-12">
+          <div class="location-img">
+            <a href="images/location-img.jpg" class="with-caption image-link">
+              <img src="images/location-img.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="location-text">
+            <ul>
+              <li>
+                <span>
+                  2.6 Km
+                </span>
+                <p>
+                  Orchid School
+                </p>
+              </li>
+              <li>
+                <span>
+                  750 m
+                </span>
+                <p>
+                  Derozio College
+                </p>
+              </li>
+              <li>
+                <span>
+                  6.7 km
+                </span>
+                <p>
+                  DPS Newtown
+                </p>
+              </li>
+              <li>
+                <span>
+                  3.7 km
+                </span>
+                <p>
+                  Charnock Hospital 
+                </p>
+              </li>
+              <li>
+                <span>
+                  7.1 km
+                </span>
+                <p>
+                  OHIO Hospital
+                </p>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container-fluid con-gallery">
+      <div class="py-5">
+        <h3 class="text-center heading">Gallery</h3>
+      </div>
+      <div class="gallery_section">
+       <div class="row mb-3">
+          <div class="col-md-4 col-12 mb-4">
+            <div class="gallery-section">
+              <a href="images/Gallery/7.jpg" class="with-caption image-link">
+              <img src="images/Gallery/7-sm.jpg" alt="" class="img-fluid">
+            </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-4">
+            <div class="gallery-section">
+               <a href="images/Gallery/8.webp" class="with-caption image-link">
+              <img src="images/Gallery/8-sm.jpg" alt="" class="img-fluid">
+            </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-4">
+            <div class="gallery-section">
+               <a href="images/Gallery/9.webp" class="with-caption image-link">
+              <img src="images/Gallery/9-sm.jpg" alt="" class="img-fluid">
+            </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-4">
+            <div class="gallery-section">
+              <a href="images/Gallery/10.jpg" class="with-caption image-link">
+              <img src="images/Gallery/10-sm.jpg" alt="" class="img-fluid">
+            </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-4">
+           <div class="gallery-section">
+              <a href="images/Gallery/11.jpg" class="with-caption image-link">
+              <img src="images/Gallery/11-sm.jpg" alt="" class="img-fluid">
+            </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 mb-4">
+            <div class="gallery-section">
+               <a href="images/Gallery/12.jpg" class="with-caption image-link">
+               <img src="images/Gallery/12-sm.jpg" alt="" class="img-fluid">
+             </a>
+             </div>
+           </div>
+          
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div>
+          <div class="footer-content">
+            <h3 class="text-white text-center">About Developer</h3>
+          </div>
+          <p class="text-white developer-content ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi delectus natus explicabo maxime eius
+            exercitationem sed repellendus, aspernatur quisquam deleniti odit, similique dolorem cumque molestiae quam
+            omnis nemo. Deleniti, ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim
+            voluptatibus dolores amet praesentium deserunt voluptatem esse corporis, culpa alias ipsum aliquid quibusdam
+            consequuntur ipsa, delectus pariatur sit eius ex.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi delectus natus explicabo maxime eius
+            exercitationem sed repellendus, aspernatur quisquam deleniti odit, similique dolorem cumque molestiae quam
+            omnis nemo. Deleniti, ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim
+            voluptatibus dolores amet praesentium deserunt voluptatem esse corporis, culpa alias ipsum aliquid quibusdam
+            consequuntur ipsa, delectus pariatur sit eius ex.
+          </p>
+          <hr class="text-white" />
+          <p class="text-white text-center developer-content">Project Rera : Comming Soon <br>
+            Agent Rera : Comming Soon
+          </p>
+          <p class="text-white text-center developer-content"><strong>Disclaimer</strong> - The content provided on this
+            website is for information
+            purposes only and does not constitute an offer to avail any service. The prices mentioned are subject to
+            change without prior notice, and the availability of properties mentioned is not guaranteed.<span
+              id="dots">...</span><span id="more">We may also send updates and information to the mobile number or email
+              ID registered with us. All rights reserved. The content, design, and information on this website are
+              protected by copyright and other intellectual property rights. Any unauthorized use or reproduction of the
+              content may violate applicable laws. For accurate and up-to-date information regarding services, pricing,
+              availability, and any other details, it is advisable to contact us directly through the provided contact
+              information on this website. Thank you for visiting our website.</span> <br> <a onclick="myFunction()"
+              id="myBtn" class=" mt-2 text-white">Read more...</a></p>
+
+              <p class="text-white text-center gtf-url">
+                <a href="disclaimer.html"> Disclaimer &amp; Privacy Policy <br>
+                 </a>
+                 Digital Media Planned By <a href="http://www.gtftechnologies.com/" target="_blank"> GTF
+                  Technologies</a> <a href="https://www.google.com/partners/agency?id=6096246672" target="_blank"></a>
+              </p>
+              
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- <div class="fixed-icons">
+    <a href=""> <img src="images/telephone-call.png" alt="" srcset=""></a>
+    <a href=""><img src="images/whatsapp.png" alt=""></a>
+
+  </div> -->
+
+
+  <div class="mobile-section_1">
+    <div class="mobile-section">
+      <a href="tel:+91-9999999999" class=" text-white"><img src="images/icons/phone-call (1).png" alt="" srcset=""> Tap To Call</a>
+      <a href="" class=" text-white" title="Enquire Now" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/icons/preview.png" alt="" width="20px">
+        Query Now</a>
+      <a href="https://api.whatsapp.com/send?phone=+919999999999  &amp;text=Hello, I am Interested in Project Name, Location. Get in touch with me my name is"
+        class=" text-white"><img src="images/icons/whatsapp (5).png" alt="" width="20px"> Whats App</a>
+
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-2 modal_class">
+        <!-- <div class="modal-header">
+          
+        </div> -->
+        <div class="modal-body">
+          <button type="button" class="btn-close modal-button" data-bs-dismiss="modal" aria-label="Close"
+            style="filter: invert(1);"></button>
+
+          <div>
+            <h2 class="modal-title text-center mb-3" id="exampleModalLabel">Project Name</h2>
+            <!-- <h5 class="mt-3">Location Name</h5> -->
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Enter Name" id="qSenderName" />
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control" placeholder="Enter Number" id="qMobileNo"/>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Enter Email" id="qEmailID"/>
+          </div>
+          <textarea rows="3" class="form-control" placeholder="Enter Message" row="3" id="qMessage"></textarea>
+          <div class="text-center">
+            <button class="btn btn-call mt-3 text-white" type="submit" id="SubmitQuery">
+              Submit
+            </button>
+          </div>
+          <div class="checkbox-section" style="display: flex; justify-content: space-between; align-items: baseline;">
+            <input type="checkbox" name="" value="" checked="">
+            <p style="    font-size: 10px;
+            color: #fff;
+            padding: 10px;
+            margin: 0px 0 0 0;
+            line-height: unset;
+            padding-bottom: 0;
+            ">I authorize company representatives to Call, SMS, Email or WhatsApp me about its products and offers.This
+              consent overrides any registration for DNC/NDNC.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="css/jquery.magnific-popup.min.js"></script>
+<!-- Api For Query  -->
+    <script type="text/javascript" language="javascript">
+      var versionUpdate = (new Date()).getTime();
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://api2.gtftech.com/scripts/queryform.min.ssl.js?v=" + versionUpdate;
+      document.body.appendChild(script);
+    </script>
+  
+    <script>
+      var AgentInfo = {
+        "vAgentID": "****",
+        "vProject": "",
+        "vURL": "https://gtftech.co.in/godrej-hinjewadi-projects/",
+        "thankspageurl": "https://gtftech.co.in/godrej-hinjewadi-projects/thanks.htm",
+      };
+  
+  
+      //Needs to be duplicate in the case of multiple forms on the same page
+      //--------------------------------------------------------------------------------------//
+      $('#preferedtime').hide();
+  
+      $("#SubmitQuery").click(function () {
+        var FormInfo = {
+          "SenderControlID": "qSenderName",
+          "SenderControlMobileID": "qMobileNo",
+          "SenderControlEmailID": "qEmailID",
+          "SenderControlMsgID": "qMessage"
+        };
+  
+        SubmitQueryData(AgentInfo, FormInfo);
+      });
+
+      $("#SubmitQuery1").click(function () {
+        var FormInfo = {
+          "SenderControlID": "qSenderName1",
+          "SenderControlMobileID": "qMobileNo1",
+          "SenderControlEmailID": "qEmailID1",
+          "SenderControlMsgID": "qMessage1"
+        };
+  
+        SubmitQueryData(AgentInfo, FormInfo);
+      });
+
+
+      
+    </script>
+    <script>
+      $(".my-btn").click(function () {
+        $(".top-icon").toggleClass("show-form");
+      });
+    </script>
+
+    <script>
+      document.getElementById("toggleIcon").addEventListener("click", () => {
+        top_icon.classList.toggle("active");
+      });
+
+    </script>
+    <script>
+
+      // popup js
+      $(document).ready(function () {
+        $('.image-link').magnificPopup({
+          type: 'image',
+          gallery: {
+            enabled: true // Enable gallery mode
+          }
+        });
+      });
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          $('.my-nav').addClass('nav-fixd');
+        } else {
+          $('.my-nav').removeClass('nav-fixd');
+        }
+      });
+    </script>
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more...";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less...";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+
+
+<script>
+//   document.addEventListener("scroll", function () {
+//   const topIcon = document.getElementById("top_icon");
+//   if (window.scrollY > 500) {
+//     // Add the class to show the element
+//     topIcon.classList.add("active");
+//   } else {
+//     // Remove the class to hide the element
+//     topIcon.classList.remove("active");
+//   }
+// });
+
+document.addEventListener("scroll", function () {
+  const topIcon = document.getElementById("top_icon");
+  
+  // Set the scroll threshold based on screen size
+  let scrollThreshold;
+  if (window.innerWidth > 1400) {
+    // For larger screens (e.g., desktops)
+    scrollThreshold = 430;
+  } else if (window.innerWidth > 1366) {
+    // For medium screens (e.g., tablets)
+    scrollThreshold = 150;
+  } else {
+    // For smaller screens (e.g., phones)
+    scrollThreshold = 70;
+  }
+
+  if (window.scrollY > scrollThreshold) {
+    // Add the class to show the element
+    topIcon.classList.add("active");
+  } else {
+    // Remove the class to hide the element
+    topIcon.classList.remove("active");
+  }
+});
+</script>
+<script>
+  // Add an event listener for all nav links
+document.querySelectorAll(".custom_nav_link").forEach((link) => {
+  link.addEventListener("click", () => {
+    // Find the collapsible navbar element
+    const navbarCollapse = document.getElementById("navbarSupportedContent");
+    if (navbarCollapse.classList.contains("show")) {
+      // Remove the 'show' class to close the toggle
+      navbarCollapse.classList.remove("show");
+    }
+  });
+});
+</script>
+
+</body>
+
+</html>

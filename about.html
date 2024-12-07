@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ripple Effect Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .full-landing-image {
+            width: 100%;
+            height: 100vh;
+            background: url('https://i.postimg.cc/J07vSC9q/hero-background.jpg') no-repeat center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="full-landing-image"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include the ripples plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".full-landing-image").ripples({
+                resolution: 256,
+                perturbance: 0.01,
+            });
+        });
+    </script>
+</body>
+</html>
